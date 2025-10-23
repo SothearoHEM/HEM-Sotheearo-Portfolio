@@ -87,11 +87,11 @@ html {
     box-shadow: 0 10px 30px rgb(67, 57, 57);
 }
 .download-cv-btn:hover{
-    transform: translate(5px,5px) scale(1.3);
+    transform: translate(5px,5px) scale(1.1);
     transition-duration: 0.2s;
 }
 .cantact-me-btn:hover{
-    transform: translate(5px,5px) scale(1.3);
+    transform: translate(5px,5px) scale(1.1);
     transition-duration: 0.2s;
 }
 .cantact-me-btn{
@@ -170,14 +170,13 @@ html {
     height: 400px;
     width: 300px;
     border-radius: 30px;
-    box-shadow: 0 10px 30px #36363e;
     border: 2px solid #38386c;
     background-color: #ffffff;
 }
 .card:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition-duration: 0.2s;
-
+    box-shadow: 0 10px 30px #36363e;
 }
 .skill-title{
     padding: 30px 30px 10px 30px;
