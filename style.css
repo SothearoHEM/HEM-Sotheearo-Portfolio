@@ -377,3 +377,376 @@ html {
     transform: scale(1.2);
     transition-duration: 0.2s;
 }
+
+/* Mobile Responsive Styles - Only for phones */
+@media only screen and (max-width: 768px) {
+    .header{
+        z-index: 1001;
+    }
+    .container {
+        width: 95%;
+        padding: 5px 0;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .container #logo {
+        font-size: 18px;
+        padding: 5px 0;
+    }
+    
+    /* Hide desktop menu on mobile */
+    .manu {
+        z-index: 1000;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #fafafa;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        padding: 10px 0;
+        flex-direction: column;
+        display: none;
+    }
+    
+    /* Mobile menu toggle button */
+    .mobile-menu-btn {
+        display: block;
+        background: none;
+        border: none;
+        font-size: 24px;
+        color: #191970;
+        cursor: pointer;
+        padding: 5px 10px;
+    }
+    
+    /* Show menu when hover on button - works on mobile with touch */
+    .mobile-menu-btn:hover + .manu,
+    .manu:hover {
+        display: flex;
+    }
+    
+    /* Dropdown menu styles */
+    .manu li {
+        margin: 0;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .manu li a {
+        display: block;
+        padding: 12px 20px;
+        font-size: 16px;
+        color: #191970;
+        text-decoration: none;
+        border-bottom: 1px solid #e0e0e0;
+    }
+    
+    .manu li:last-child a {
+        border-bottom: none;
+    }
+    
+    .manu li a:hover {
+        background-color: #e6e6ff;
+        color: #191970;
+    }
+
+    /* FIX: Ensure main-right is visible and properly styled */
+    .main-ava {
+        height: auto;
+        padding-top: 80px;
+        padding-bottom: 30px;
+        z-index: 1;
+        position: relative;
+    }
+    
+    .avata-con {
+        width: 95%;
+        flex-direction: column;
+        height: auto;
+        z-index: 1;
+        position: relative;
+    }
+    
+    .avata-con .main-left {
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+        order: 2;
+        z-index: 1;
+    }
+    
+    .avata-con .main-right {
+        width: 100%;
+        order: 1;
+        display: flex !important; /* Force display */
+        justify-content: center;
+        visibility: visible !important; /* Force visibility */
+        opacity: 1 !important; /* Force opacity */
+        z-index: 1;
+        position: relative;
+    }
+    
+    .main-right .background-circle {
+        height: 250px;
+        width: 250px;
+        margin: 0 auto;
+        display: block !important;
+    }
+    
+    .main-right #avata {
+        height: 250px;
+        margin-left: 30px;
+        display: block !important;
+        visibility: visible !important;
+    }
+    
+    .about-me-btn {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .download-cv-btn,
+    .cantact-me-btn {
+        margin: 10px 0;
+        width: 200px;
+    }
+    
+    .about-me {
+        width: 95%;
+    }
+    
+    .main-about_me {
+        flex-direction: column;
+    }
+    
+    .about-text {
+        font-size: 18px;
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .skill {
+        width: 95%;
+    }
+    
+    .skill-group {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .skill-group .card {
+        width: 90%;
+        height: auto;
+        margin: 10px 0;
+    }
+    
+    .education {
+        width: 95%;
+        padding: 15px;
+    }
+    
+    .education-group {
+        flex-direction: column;
+    }
+    
+    .education-group .card-ed {
+        width: 100%;
+        height: 250px;
+    }
+    
+    .text-ed {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    .img-card {
+        width: 100%;
+        height: 250px;
+    }
+    
+    .courses {
+        width: 95%;
+        padding: 15px;
+    }
+    
+    .courses-group {
+        flex-direction: column-reverse;
+    }
+    
+    .courses-group .card-courses {
+        width: 100%;
+        height: 250px;
+    }
+    
+    .text-courses {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .achievement {
+        width: 95%;
+        padding: 15px;
+    }
+    
+    .achievement-group .card-achievement {
+        width: 100%;
+        height: 300px;
+    }
+    
+    .img-achievement {
+        width: 100%;
+        height: 300px;
+    }
+    
+    .community-sevice {
+        width: 95%;
+        padding: 15px;
+    }
+    
+    .community-sevice-group {
+        flex-direction: column;
+    }
+    
+    .card-community-sevice {
+        width: 100%;
+        height: 250px;
+    }
+    
+    .text-community-sevice {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    .img-community-sevice {
+        width: 100%;
+        height: 250px;
+    }
+    
+    .contact {
+        width: 95%;
+    }
+    
+    .socail-media {
+        width: 80%;
+    }
+    
+    .text-contact {
+        font-size: 20px;
+        margin: 20px;
+    }
+    
+    .fa-brands {
+        font-size: 35px;
+    }
+    
+    .text-title,
+    .text-title-courses,
+    .text-title-community-sevice {
+        font-size: 24px;
+        margin: 10px;
+        text-align: center;
+    }
+    
+    .ed-text,
+    .courses-text,
+    .community-sevice-text {
+        font-size: 16px;
+    }
+    
+    .achievement-text {
+        font-size: 16px;
+    }
+}
+
+/* Additional mobile-specific adjustments */
+@media only screen and (max-width: 480px) {
+    .container #logo {
+        font-size: 16px;
+    }
+    
+    .avata-con .main-left {
+        font-size: 24px;
+    }
+    
+    .main-right .background-circle {
+        height: 200px;
+        width: 200px;
+    }
+    
+    .main-right #avata {
+        height: 200px;
+        margin-left: 30px;
+    }
+    
+    .about-text {
+        font-size: 16px;
+    }
+    
+    .skill-group .card {
+        width: 100%;
+    }
+    
+    .text-title,
+    .text-title-courses,
+    .text-title-community-sevice {
+        font-size: 20px;
+    }
+    
+    .fa-brands {
+        font-size: 30px;
+    }
+}
+
+/* Desktop styles - hide mobile button and show regular menu */
+@media only screen and (min-width: 769px) {
+    .mobile-menu-btn {
+        display: none;
+    }
+    
+    .manu {
+        display: flex !important;
+        position: static;
+        width: 60%;
+        background: none;
+        box-shadow: none;
+        padding: 0;
+        flex-direction: row;
+    }
+    
+    .manu li a {
+        padding: 0;
+        border-bottom: none;
+        display: inline;
+    }
+    
+    .manu li a:hover {
+        background: none;
+    }
+    
+    /* Ensure desktop styles for main-right are preserved */
+    .avata-con .main-right {
+        width: 35% !important;
+        display: flex !important;
+        order: 2 !important;
+    }
+    
+    .main-right .background-circle {
+        height: 348px !important;
+        width: 348px !important;
+        margin-top: 10px !important;
+    }
+    
+    .main-right #avata {
+        height: 365px !important;
+        margin-left: 40px !important;
+    }
+}
