@@ -377,3 +377,347 @@ html {
     transform: scale(1.2);
     transition-duration: 0.2s;
 }
+
+/* Mobile Responsive Styles */
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 95%;
+    }
+    
+    .manu {
+        width: 70%;
+    }
+    
+    .manu li a {
+        font-size: 16px;
+    }    
+    .avata-con {
+        width: 80%;
+    }
+    
+    .skill {
+        width: 85%;
+    }
+    
+    .education, .courses, .achievement, .community-sevice, .contact {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+    
+    .container #logo {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    
+    .manu {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .manu li a {
+        font-size: 14px;
+    }
+    
+    .fa-magnifying-glass {
+        display: none;
+    }
+    
+    .main-ava {
+        height: auto;
+        padding: 80px 20px 30px;
+
+    }
+    
+    .avata-con {
+        width: 90%;
+        flex-direction: column-reverse;
+        height: auto;
+    }
+    
+    .avata-con .main-left {
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .about-me-btn {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .download-cv-btn, .cantact-me-btn {
+        margin: 10px 0;
+        width: 200px;
+    }
+    
+    .avata-con .main-right {
+        width: 100%;
+        margin-top: 50px;
+        justify-content: center;
+    }
+    
+    .main-right .background-circle {
+        height: 250px;
+        width: 250px;
+        margin: 0 auto;
+    }
+    
+    .main-right #avata {
+        height: 265px;
+        margin-left: 25px;
+    }
+    
+    .about-me {
+        width: 90%;
+    }
+    
+    .main-about_me {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .about-text {
+        font-size: 18px;
+        margin: 20px 0;
+        text-align: justify;
+    }
+    
+    .skill {
+        width: 90%;
+    }
+    
+    .skill-group {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .skill-group .card {
+        width: 90%;
+        height: auto;
+        min-height: 300px;
+    }
+    
+    .education {
+        width: 90%;
+        padding: 20px;
+    }
+    
+    .education-group {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .education-group .card-ed {
+        height: 250px;
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .img-card {
+        height: 250px;
+        width: 100%;
+    }
+    
+    .text-ed {
+        width: 100%;
+        margin: 20px 0 0 0;
+        text-align: center;
+    }
+    
+    .text-title {
+        font-size: 24px;
+        margin: 10px;
+    }
+    
+    .ed-text {
+        font-size: 16px;
+    }
+    
+    .courses {
+        width: 90%;
+        padding: 20px;
+    }
+    
+    .courses-group {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .courses-group .card-courses {
+        height: 250px;
+        width: 100%;
+        max-width: 300px;
+        order: 1;
+    }
+    
+    .text-courses {
+        width: 100%;
+        margin: 20px 0 0 0;
+        text-align: center;
+        order: 2;
+    }
+    
+    .text-title-courses {
+        font-size: 22px;
+    }
+    
+    .courses-text {
+        font-size: 16px;
+    }
+    
+    .achievement {
+        width: 90%;
+        padding: 20px;
+    }
+    
+    .achievement-group .card-achievement {
+        height: auto;
+        width: 100%;
+    }
+    
+    .img-achievement {
+        height: auto;
+        width: 100%;
+    }
+    
+    .text-title-achievement {
+        font-size: 22px;
+    }
+    
+    .achievement-text {
+        font-size: 16px;
+        padding: 10px;
+    }
+    
+    .community-sevice {
+        width: 90%;
+        padding: 20px;
+    }
+    
+    .community-sevice-group {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .card-community-sevice {
+        height: auto;
+        width: 100%;
+        max-width: 400px;
+    }
+    
+    .img-community-sevice {
+        height: auto;
+        width: 100%;
+    }
+    
+    .text-community-sevice {
+        width: 100%;
+        margin: 20px 0 0 0;
+        text-align: center;
+    }
+    
+    .text-title-community-sevice {
+        font-size: 22px;
+        margin: 10px;
+    }
+    
+    .community-sevice-text {
+        font-size: 16px;
+    }
+    
+    .contact {
+        width: 90%;
+    }
+    
+    .text-contact {
+        font-size: 16px;
+        margin: 20px 10px;
+    }
+    
+    .socail-media {
+        width: 60%;
+        margin: 30px auto;
+    }
+    
+    .fa-brands {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container #logo {
+        font-size: 16px;
+    }
+    
+    .manu li a {
+        font-size: 12px;
+    }
+    
+    .avata-con .main-left {
+        font-size: 24px;
+    }
+    
+    .main-right .background-circle {
+        height: 200px;
+        width: 200px;
+    }
+    
+    .main-right #avata {
+        height: 215px;
+        margin-left: 20px;
+    }
+    
+    .download-cv-btn, .cantact-me-btn {
+        width: 150px;
+        height: 45px;
+        font-size: 14px;
+        padding-top: 12px;
+    }
+    
+    .about-text {
+        font-size: 16px;
+    }
+    
+    .skill-group .card {
+        width: 100%;
+    }
+    
+    .skill-text {
+        font-size: 16px;
+    }
+    
+    .text-title {
+        font-size: 20px;
+    }
+    
+    .text-title-courses, .text-title-achievement, .text-title-community-sevice {
+        font-size: 18px;
+    }
+    
+    .ed-text, .courses-text, .achievement-text, .community-sevice-text {
+        font-size: 14px;
+    }
+    
+    .text-contact {
+        font-size: 14px;
+    }
+    
+    .socail-media {
+        width: 80%;
+    }
+    
+    .fa-brands {
+        font-size: 30px;
+    }
+}
