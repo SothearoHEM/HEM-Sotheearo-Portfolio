@@ -30,7 +30,6 @@ html{
 }
 .logo p {
     color: #e4dcdc;
-    text-decoration: none;
     font-size: 24px;
 }
 .logo p span {
@@ -64,7 +63,6 @@ nav ul li a:hover{
     width: 100%;
     height: 735px;
     margin-top: 25px;
-    background: #232375;
     background: linear-gradient(90deg,rgb(37, 37, 140) 0%, rgb(73, 17, 119) 100%);
 }
 .home-container{
