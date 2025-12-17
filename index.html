@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="https://kit.fontawesome.com/51487f9546.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://kit.fontawesome.com/51487f9546.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HEM Sothearo || Portfolio</title>
@@ -15,7 +15,7 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="#home">Home</a></li>
+                    <li><a href="#home" class="active">Home</a></li>
                     <li><a href="#about">About Me</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
@@ -842,9 +842,69 @@
                 <p class="title">Get in Touch</p>
                 <p>I'm always open to new opportunities and collaborations. Feel free to reach out!</p>
             </div>
-            
-        </div>
+            <div class="contact-info">
+                <form action="" class="contact-info-left">
+                    <p class="title">Send Me a Message</p>
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Enter Your Subject" required>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="12" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="send-message-btn"><i class="fa-regular fa-paper-plane"></i> Send Message</button>
+                </form>
+                <div class="contact-info-right">
+                    <div class="contact-info-right-card-group">
+                        <div class="title">
+                            <p>Contact Information</p>
+                        </div>
+                        <div class="contact-info-right-card phone">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>Phone</span>
+                            <p class="contact-method">+855 92 20 23 93</p>          
+                            <p class="p1">Available Mon-Fri, 9AM-6PM</p>
+                        </div>
+                        <div class="contact-info-right-card email">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>Email</span>
+                            <p class="contact-method">sothearohem@gmail.com</p>          
+                            <p class="p1">I'll respond within 24 hours</p>
+                        </div>
+                        <div class="contact-info-right-card address">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Address</span>
+                            <p class="contact-method">#884, St 113, Ou Baek K'am
+                                Sen Sok, Phnom Penh, Cambodia
+                            </p>          
+                        </div>
+                    </div>
+                    <div class="contact-info-btn">
+                        <p class="title">Connect With Me</p>
+                        <div class="btn-group">
+                            <a href="https://github.com/SothearoHEM" class="btn github" aria-label="GitHub" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://t.me/HemSothearo" class="btn telegram" aria-label="Telegram" target="_blank" rel="noopener"><i class="fa-brands fa-telegram"></i></a>
+                        <a href="https://www.facebook.com/share/1Z1k7e7x3K/" class="btn facebook" aria-label="Facebook" target="_blank" rel="noopener"><i class="fa-brands fa-facebook"></i></a>
+                        </div>                   
+                    </div>
+                    <div class="current-status">
+                        <p class="title">Current Status</p>
+                        <i class="fa-solid fa-circle"></i>
+                        <span>Available for opportunities</span>
+                        <p class="text">Open to internships and entry-level positions</p>
+                    </div>
+                </div>
+            </div>
+            <hr class="footer-line">
+        </div>    
     </section>
+    <footer class="footer">
+        <div class="footer-container">
+            <p class="copy-right">&copy; 2025 Sothearo HEM. All rights reserved.</p>  
+            <p class="designer-credit">Design & Developed by Sothearo HEM</p>      
+        </div>
+    </footer>
     <script src="JS/script.js"></script>
 </body>
 </html>
