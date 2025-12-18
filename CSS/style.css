@@ -832,28 +832,28 @@ nav ul li a.active{
     transform: scale(1.05);
 }
 .skills-container .additional-competencies .competencies-list .responsive{
-    background: linear-gradient(90deg, #00A3FF, #2156d1)
+    background: linear-gradient(90deg, #00A3FF, #2156d1);
 }
 .skills-container .additional-competencies .competencies-list .cross-browser{
-    background: linear-gradient(90deg, #9C33F0, #D42299)
+    background: linear-gradient(90deg, #9C33F0, #D42299);
 }
 .skills-container .additional-competencies .competencies-list .performance{
-    background: linear-gradient(90deg, #cf8530, #FF4C4C)
+    background: linear-gradient(90deg, #cf8530, #FF4C4C);
 }
 .skills-container .additional-competencies .competencies-list .troubleshooting{
-    background: linear-gradient(90deg, #00A9AF, #2ea97e)
+    background: linear-gradient(90deg, #00A9AF, #2ea97e);
 }
 .skills-container .additional-competencies .competencies-list .hardware{
-    background: linear-gradient(90deg, #6C30FF, #A33CFF)
+    background: linear-gradient(90deg, #6C30FF, #A33CFF);
 }
 .skills-container .additional-competencies .competencies-list .problem-solving{
-    background: linear-gradient(90deg, #FF006E, #FF4C9C)
+    background: linear-gradient(90deg, #FF006E, #FF4C9C);
 }
 .skills-container .additional-competencies .competencies-list .time-management{
-    background: linear-gradient(90deg, #dcb53f, #FF7000)
+    background: linear-gradient(90deg, #dcb53f, #FF7000);
 }
 .skills-container .additional-competencies .competencies-list .continuous-learning{
-    background: linear-gradient(90deg, #39b662, #20965b)
+    background: linear-gradient(90deg, #39b662, #20965b);
 }
 .project{
     width: 100%;
@@ -1181,7 +1181,7 @@ nav ul li a.active{
     left: 0;
 }
 .timeline-item.left .dot {
-    left: 200%
+    left: 200%;
 }
 .dot.blue { 
     background: #1e90ff; 
@@ -1378,13 +1378,13 @@ nav ul li a.active{
     background: linear-gradient(90deg, #8a268c, #a734be);
 }
 .volunteer-container .volunteer-card-group .Together-Youth-and-Community{
-    background: linear-gradient(135deg, #511dab 0%, #7c217e75 100%)
+    background: linear-gradient(135deg, #511dab 0%, #7c217e75 100%);
 }
 .volunteer-container .volunteer-card-group .Together-for-100-Families .volunteer-card-header{
     background: linear-gradient(90deg, #c35d26, #ed461d);
 }
 .volunteer-container .volunteer-card-group .Together-for-100-Families{
-    background: linear-gradient(135deg, #83136085 0%, #7c217e86 100%)
+    background: linear-gradient(135deg, #83136085 0%, #7c217e86 100%);
 }
 .volunteer-container .volunteer-footer{
     width: 100%;
