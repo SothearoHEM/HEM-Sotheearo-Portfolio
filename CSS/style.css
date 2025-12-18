@@ -124,7 +124,6 @@ nav ul li a.active{
     width: fit-content;
     font-size: 14px;
     border-radius: 20px;
-    background: #9862bf;
     background: linear-gradient(90deg, rgba(152, 98, 191, 1) 0%, rgb(167, 96, 96) 51%, rgb(145, 52, 131) 100%);
     padding: 10px 10px;
     margin-bottom: 20px;
@@ -181,14 +180,12 @@ nav ul li a.active{
     font-size: 16px;
 }
 .home-text-container .btn-group .contact-me-btn{
-    background: #cfceeb;
     background: linear-gradient(90deg, rgb(60, 156, 194) 0%, rgb(72, 124, 173) 58%, rgb(154, 65, 222) 100%);
     color: #ffffff;
     border: none;
     box-shadow: rgba(239, 233, 233, 0.25) 0px 25px 50px -12px;
 }
 .home-text-container .btn-group .contact-me-btn:hover{
-    background: #9862bf;
     background: linear-gradient(90deg, rgba(152, 98, 191, 1) 0%, rgb(167, 96, 96) 51%, rgb(145, 52, 131) 100%);
     transition: 0.3s;
     box-shadow: 0 0 15px rgba(228, 187, 187, 0.7);
@@ -1878,3 +1875,4 @@ nav ul li a.active{
     font-size: 14px;
     color: #a1a1a1da;
 }
+
