@@ -6,6 +6,9 @@
 html{
     scroll-behavior: smooth;
 }
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .header{
     width: 100%;
     height: 60px;
@@ -26,7 +29,6 @@ html{
 }
 .logo{
     width: 40%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .logo p {
     color: #e4dcdc;
@@ -51,7 +53,6 @@ nav ul li a{
     text-decoration: none;
     color: #ffffff;
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
     padding: 8px 15px;
     border-radius: 5px;
 }
@@ -115,7 +116,6 @@ nav ul li a.active{
     width: 50%;
     height: 100%;
     color: #ffffff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -287,7 +287,6 @@ nav ul li a.active{
 }
 .about-container .about-title .title{
     font-size: 40px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 20px;
     text-align: center;
     color: #7c2dc5;
@@ -382,7 +381,6 @@ nav ul li a.active{
     color: #4b4b4b;
     margin-left: 46px;
     line-height: 1.6;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .about-info-con-left .about-info-languages{
     width: 100%;
@@ -465,7 +463,6 @@ nav ul li a.active{
     padding: 5px;
     color: #4b4b4b;
     margin-left: 46px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .about-info-con-left .about-info-hobbies .hobbies-card{
     display: flex;
@@ -485,7 +482,6 @@ nav ul li a.active{
     align-items: center;
     justify-content: center;
     font-size: 16px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .reading{
     background: linear-gradient(90deg, rgb(160, 88, 159) 0%, rgb(255, 0, 183) 100%);
@@ -512,7 +508,6 @@ nav ul li a.active{
     border-radius: 10px;
     padding: 20px;
     color: #ffffff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .about-info-con-left .about-info-career-objective .title{
     font-size: 22px;
@@ -577,7 +572,6 @@ nav ul li a.active{
 }
 .skills-container .skills-title .title{
     font-size: 40px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 20px;
     color: #faeeee;
     margin-top: 60px;
@@ -586,7 +580,6 @@ nav ul li a.active{
     font-size: 18px;
     color: #67e8f9;
     margin-bottom: 40px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .skills-container .technical-skills{
     width: 100%;
@@ -597,7 +590,6 @@ nav ul li a.active{
 .skills-container .technical-skills .title{
     display: flex;
     margin-bottom: 30px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .skills-container .technical-skills .title .fa-code{
     font-size: 30px;
@@ -646,7 +638,6 @@ nav ul li a.active{
     margin-bottom: 8px;
     display: flex;
     justify-content: space-between;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .skills-container .technical-skills .technical-skills-card-group .technical-skills-card .skill-item .progress-bar {
     height: 12px;
@@ -739,7 +730,6 @@ nav ul li a.active{
 .skills-container .soft-skills .title{
     display: flex;
     margin-bottom: 30px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .skills-container .soft-skills .title .fa-lightbulb{
     font-size: 30px;
@@ -782,14 +772,12 @@ nav ul li a.active{
     font-size: 18px;
     color: #d1d1d1;
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 10px;
 }
 .skills-container .soft-skills .soft-skills-card-group .soft-skills-card .text{
     font-size: 14px;
     color: #22d3ee;
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .skills-container .soft-skills .soft-skills-card-group .communication{
     background: linear-gradient(90deg, rgba(51, 48, 140, 0.797) 0%, rgba(50, 50, 148, 0.764) 100%);
@@ -812,7 +800,6 @@ nav ul li a.active{
 }
 .skills-container .additional-competencies .title{
     display: flex;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .skills-container .additional-competencies .title .fa-list-check{
     font-size: 30px;
@@ -887,7 +874,6 @@ nav ul li a.active{
 }
 .projects-container .projects-title .title{
     font-size: 40px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 20px;
     color: #7c2dc5;
 }
@@ -920,7 +906,6 @@ nav ul li a.active{
     border: 1px solid rgba(175, 31, 194, 0.5);
 }
 .projects-container .projects-card-group .projects-card .title{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #f0eaea;
     padding: 20px;
     background: linear-gradient(90deg, rgb(139, 62, 195) 0%, rgb(141, 50, 232) 51%, rgb(85, 47, 190) 100%);
@@ -951,12 +936,10 @@ nav ul li a.active{
     padding: 20px;
     font-size: 17px;
     color: #4b4b4b;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .projects-container .projects-card-group .projects-card .projects-card-technologies{
     margin-bottom: 20px;
     padding: 0 20px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .projects-container .projects-card-group .projects-card .projects-card-technologies .technologies-title{
     font-size: 16px;
@@ -989,7 +972,6 @@ nav ul li a.active{
 }
 .projects-container .projects-card-group .projects-card .projects-card-key-features{
     padding: 0 20px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 .projects-container .projects-card-group .projects-card .projects-card-key-features .key-features-title{
@@ -1021,7 +1003,6 @@ nav ul li a.active{
     font-size: 15px;
     margin-top: 5px;
     color: #ffffff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .projects-container .projects-card-group .projects-card .projects-card-btn .live-demo-btn{
     background: linear-gradient(90deg, rgb(139, 62, 195) 0%, rgb(141, 50, 232) 51%, rgb(85, 47, 190) 100%);
@@ -1078,7 +1059,6 @@ nav ul li a.active{
     border-radius: 10px;
     justify-content: center;
     margin-bottom: 80px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .projects-footer .title{
     font-size: 24px;
@@ -1117,7 +1097,6 @@ nav ul li a.active{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .education-container .education-title{
     width: 50%;
@@ -1125,7 +1104,6 @@ nav ul li a.active{
 }
 .education-container .education-title .title{
     font-size: 40px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 20px;
     color: #7c2dc5;
 }
@@ -1292,7 +1270,6 @@ nav ul li a.active{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .volunteer-container .volunteer-title{
     width: 50%;
@@ -1301,7 +1278,6 @@ nav ul li a.active{
 }
 .volunteer-container .volunteer-title .title{
     font-size: 40px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 20px;
     color: #f3f9fe;
 }
@@ -1327,7 +1303,6 @@ nav ul li a.active{
     border: 1px solid rgba(255, 255, 255, 0.1);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     background: linear-gradient(90deg, rgba(51, 48, 140, 0.466) 0%, rgba(50, 50, 148, 0.647) 100%);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .volunteer-container .volunteer-card-group .volunteer-card:hover{
     transform: scale(1.03);
@@ -1423,7 +1398,6 @@ nav ul li a.active{
     border: 1px solid rgba(255, 255, 255, 0.1);
     justify-content: center;
     margin-bottom: 80px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .volunteer-container .volunteer-footer .fa-heart{
     font-size: 35px;
@@ -1454,7 +1428,6 @@ nav ul li a.active{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .courses-container .courses-title{
     width: 60%;
@@ -1463,7 +1436,6 @@ nav ul li a.active{
 }
 .courses-container .courses-title .title{
     font-size: 40px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 20px;
     color: #7c2dc5;
 }
@@ -1599,7 +1571,6 @@ nav ul li a.active{
     border-radius: 10px;
     justify-content: center;
     margin-bottom: 80px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .courses-container .courses-footer .fa-medal{
     font-size: 35px;
@@ -1630,7 +1601,6 @@ nav ul li a.active{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .contact-container .contact-title{
     width: 60%;
@@ -1639,7 +1609,6 @@ nav ul li a.active{
 }
 .contact-container .contact-title .title{
     font-size: 40px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 20px;
     color: #f3f9fe;
 }
@@ -1683,7 +1652,8 @@ nav ul li a.active{
     background: rgba(255, 255, 255, 0.047);
     margin-bottom: 20px;
     font-size: 16px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f3f9fe;
+    resize: none;
 }
 .contact-container .contact-info .contact-info-left #name:focus,
 .contact-container .contact-info .contact-info-left #email:focus,
@@ -1889,7 +1859,6 @@ nav ul li a.active{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .footer .footer-container{
     width: 80%;

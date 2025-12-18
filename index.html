@@ -843,7 +843,7 @@
                 <p>I'm always open to new opportunities and collaborations. Feel free to reach out!</p>
             </div>
             <div class="contact-info">
-                <form action="" class="contact-info-left">
+                <form action="" class="contact-info-left" id="contact-form">
                     <p class="title">Send Me a Message</p>
                     <label for="name">Your Name</label>
                     <input type="text" id="name" name="name" placeholder="Your Full Name" required>
@@ -905,6 +905,16 @@
             <p class="designer-credit">Design & Developed by Sothearo HEM</p>      
         </div>
     </footer>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init({
+                publicKey: "Hn0BPBdxDqRJRrzZ6",
+            });
+        })();
+    </script>
     <script src="JS/script.js"></script>
 </body>
 </html>
