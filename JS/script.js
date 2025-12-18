@@ -1,9 +1,13 @@
 const navLinks = document.querySelectorAll("nav ul li a");
 
-navLinks.forEach(link => {
-    link.addEventListener("click", () => {
-        navLinks.forEach(nav => nav.classList.remove("active"));
-        link.classList.add("active");
+window.addEventListener("scroll", () => {
+    const scrollPosition = window.scrollY;
+    navLinks.forEach(link => {
+        const section = document.querySelector(link.getAttribute("href"));
+        if (section.offsetTop <= scrollPosition && (section.offsetTop + section.offsetHeight) > scrollPosition) {
+            navLinks.forEach(nav => nav.classList.remove("active"));
+            link.classList.add("active");
+        }
     });
 });
 
