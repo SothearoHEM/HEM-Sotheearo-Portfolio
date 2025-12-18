@@ -17,7 +17,7 @@ body{
     top: 0;
     left: 0;
     z-index: 1000;
-    box-shadow: 0 5px 10px rgba(166, 120, 247, 0.3);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
 .header-container{
     width: 80%;
@@ -1791,7 +1791,7 @@ nav ul li a.active{
 .contact-container .contact-info .contact-info-right .contact-info-btn .btn{
     padding: 15px 16px;
     border-radius: 8px;
-    background: linear-gradient(90deg, rgb(67, 124, 209) 0%, rgb(81, 127, 220) 51%, rgb(60, 65, 219) 100%);
+    background: linear-gradient(90deg, rgb(67, 124, 209) 0%, rgb(81, 127, 220) 51%, rgb(78, 83, 238) 100%);
     box-shadow: 0 0 10px rgba(39, 93, 175, 0.5);
     color: #ffffff;
     font-size: 25px;
