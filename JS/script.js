@@ -1,10 +1,16 @@
 const navLinks = document.querySelectorAll("nav ul li a");
+const headerHeight = document.querySelector(".header")?.offsetHeight || 0;
 
 window.addEventListener("scroll", () => {
-    const scrollPosition = window.scrollY;
+    const scrollPosition = window.scrollY + headerHeight + 1;
     navLinks.forEach(link => {
-        const section = document.querySelector(link.getAttribute("href"));
-        if (section.offsetTop <= scrollPosition && (section.offsetTop + section.offsetHeight) > scrollPosition) {
+        const target = link.getAttribute("href");
+        if (!target || !target.startsWith("#")) return;
+        const section = document.querySelector(target);
+        if (!section) return;
+        const top = section.offsetTop;
+        const bottom = top + section.offsetHeight;
+        if (top <= scrollPosition && bottom > scrollPosition) {
             navLinks.forEach(nav => nav.classList.remove("active"));
             link.classList.add("active");
         }
@@ -17,8 +23,6 @@ function sendEmail() {
     const subject = document.getElementById("subject").value.trim();
     const message = document.getElementById("message").value.trim();
     const time = new Date().toLocaleString();
-
-    console.log("Form values:", { name, email, subject, message });
 
     if (!name || !email || !subject || !message) {
         alert("Please fill in all fields!");
@@ -36,9 +40,8 @@ function sendEmail() {
         time: time,
         message: message,
         email: email,
-    }) 
-        .then((response) => {
-            console.log("Email sent successfully! Response:", response);
+    })
+        .then(() => {
             alert("Thank you for contacting me! I will get back to you shortly.");
             document.getElementById("contact-form").reset();
         })
