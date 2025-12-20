@@ -662,7 +662,7 @@ nav ul li a.active{
     background: linear-gradient(90deg, #3b82f6, #06b6d4);
 }
 .skills-container .technical-skills .technical-skills-card-group .Frameworks-Libraries{
-    background: linear-gradient(135deg, #511dabb8 0%, #7c217e9a 100%)
+    background: linear-gradient(135deg, #511dabb8 0%, #7c217e9a 100%);
 }
 .skills-container .technical-skills .technical-skills-card-group .Frameworks-Libraries .progress-fill.react {
     width: 60%;
@@ -707,7 +707,7 @@ nav ul li a.active{
     background: linear-gradient(90deg, #36d0ff, #219dc3);
 }
 .skills-container .technical-skills .technical-skills-card-group .Database-Networks{
-    background: linear-gradient(135deg, #7318a1b0 0%, #5e1268bc 100%)
+    background: linear-gradient(135deg, #7318a1b0 0%, #5e1268bc 100%);
 }
 .skills-container .technical-skills .technical-skills-card-group .Database-Networks .progress-fill.sql {
     width: 80%;
@@ -1749,7 +1749,7 @@ nav ul li a.active{
     color: #58d2f1;
 }
 .contact-container .contact-info .contact-info-right .contact-info-right-card-group .email{
-    background: linear-gradient(135deg, #83136085 0%, #7c217e86 100%)
+    background: linear-gradient(135deg, #83136085 0%, #7c217e86 100%);
 }
 .contact-container .contact-info .contact-info-right .contact-info-right-card-group .email i{
     background: linear-gradient(90deg, #a855f7, #d946ef);
@@ -1876,3 +1876,638 @@ nav ul li a.active{
     color: #a1a1a1da;
 }
 
+/* Responsive Design */
+
+
+@media screen and (max-width: 1024px) {
+    .header-container {
+        width: 90%;
+    }
+    
+    nav ul {
+        font-size: 14px;
+    }
+    
+    nav ul li a {
+        padding: 6px 10px;
+    }
+    
+    .home-container {
+        width: 95%;
+    }
+    
+    .img-con {
+        width: 320px;
+        height: 320px;
+    }
+    
+    .home-text-container .text .name,
+    .home-text-container .text .first-name {
+        font-size: 50px;
+    }
+    
+    .home-text-container .text .role {
+        font-size: 32px;
+        width: 400px;
+    }
+    
+    .home-text-container .text p {
+        font-size: 18px;
+    }
+    
+    .home-text-container .btn-group {
+        width: 85%;
+    }
+    
+    .home-text-container .btn-group a {
+        padding: 11px 16px;
+        font-size: 14px;
+    }
+    
+    .about-container,
+    .skills-container,
+    .projects-container,
+    .education-container,
+    .volunteer-container,
+    .courses-container,
+    .contact-container {
+        width: 90%;
+    }
+    
+    .about-info .about-info-card-group .about-info-card {
+        width: 230px;
+        height: 140px;
+        padding: 15px;
+    }
+    
+    .photo-card {
+        width: 500px;
+    }
+    
+    .skills-container .technical-skills .technical-skills-card-group {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+    
+    .skills-container .technical-skills .technical-skills-card-group .technical-skills-card {
+        width: 100%;
+    }
+    
+    .projects-container .projects-card-group {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+    
+    .projects-container .projects-card-group .projects-card {
+        width: 100%;
+    }
+    
+    .edu-card {
+        width: 450px;
+    }
+    
+    .volunteer-container .volunteer-card-group {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+    
+    .volunteer-container .volunteer-card-group .volunteer-card {
+        width: 100%;
+    }
+    
+    .courses-container .courses-card-group .courses-card .courses-card-img {
+        width: 400px;
+    }
+}
+
+/* Tablets (768px and below) */
+@media screen and (max-width: 768px) {
+    .header {
+        height: auto;
+        padding: 10px 0;
+    }
+    
+    .header-container {
+        width: 95%;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .logo {
+        width: 100%;
+        text-align: center;
+    }
+    
+    nav {
+        width: 100%;
+    }
+    
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+    }
+    
+    nav ul li a {
+        font-size: 13px;
+        padding: 5px 8px;
+    }
+    
+    .home {
+        height: auto;
+        padding: 20px 0;
+    }
+    
+    .home-container {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+    .home-container .home-text-container .welcome{
+        display: none;
+    }
+    
+    .home-img-container {
+        width: 100%;
+        margin-top: 50px;
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+    .img-con {
+        width: 280px;
+        height: 280px;
+        margin-top: 20px;
+    }
+    
+    .home-text-container {
+        width: 90%;
+        margin: 0 auto;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .home-text-container .text .name,
+    .home-text-container .text .first-name {
+        font-size: 40px;
+    }
+    
+    .home-text-container .text .role {
+        font-size: 26px;
+        width: 100%;
+        margin: 0 auto 20px;
+    }
+    
+    .home-text-container .text p {
+        width: 100%;
+        font-size: 16px;
+    }
+    
+    .home-text-container .btn-group {
+        width: 100%;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .home-text-container .btn-group a {
+        width: 100%;
+        text-align: center;
+    }
+    .home-footer .fa-chevron-down{
+        display: none;
+    }
+    .about-container .about-title,
+    .skills-container .skills-title,
+    .projects-container .projects-title,
+    .education-container .education-title,
+    .volunteer-container .volunteer-title,
+    .courses-container .courses-title,
+    .contact-container .contact-title {
+        width: 90%;
+    }
+    
+    .about-container .about-title .title,
+    .skills-container .skills-title .title,
+    .projects-container .projects-title .title,
+    .education-container .education-title .title,
+    .volunteer-container .volunteer-title .title,
+    .courses-container .courses-title .title,
+    .contact-container .contact-title .title {
+        font-size: 32px;
+    }
+    
+    .about-info .about-info-card-group {
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+    }
+    
+    .about-info .about-info-card-group .about-info-card {
+        width: 45%;
+        min-width: 200px;
+    }
+    
+    .about-info-con {
+        flex-direction: column;
+    }
+    
+    .about-info-con-left,
+    .about-info-con-right {
+        width: 100%;
+        padding: 0;
+    }
+    
+    .about-info-con-right {
+        margin-top: 30px;
+    }
+    
+    .photo-card {
+        width: 100%;
+        max-width: 400px;
+    }
+    
+    .skills-container .technical-skills .technical-skills-card-group,
+    .projects-container .projects-card-group,
+    .volunteer-container .volunteer-card-group {
+        grid-template-columns: 1fr;
+    }
+    
+    .skills-container .soft-skills .soft-skills-card-group {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    
+    .skills-container .soft-skills .soft-skills-card-group .soft-skills-card {
+        width: 48%;
+        min-width: 200px;
+    }
+    
+    .projects-footer,
+    .volunteer-container .volunteer-footer,
+    .courses-container .courses-footer {
+        height: auto;
+        padding: 30px 20px;
+    }
+    
+    .projects-footer .text,
+    .volunteer-container .volunteer-footer .text,
+    .courses-container .courses-footer .text {
+        width: 90%;
+    }
+    
+    .timeline::before {
+        left: 20px;
+    }
+    
+    .timeline-item {
+        width: 100%;
+        padding: 20px 20px 20px 60px;
+    }
+    
+    .timeline-item.left,
+    .timeline-item.right {
+        left: 0;
+        right: 0;
+    }
+    
+    .timeline-item.left .edu-card,
+    .timeline-item.right .edu-card {
+        margin-left: 0;
+    }
+    
+    .edu-card {
+        width: 100%;
+    }
+    
+    .timeline-item.left .dot,
+    .timeline-item.right .dot {
+        left: 20px;
+    }
+    
+    .dot {
+        top: 30px;
+    }
+    
+    .courses-container .courses-card-group .courses-card {
+        flex-direction: column;
+    }
+    
+    .courses-container .courses-card-group .courses-card .courses-card-img {
+        width: 100%;
+        height: 250px;
+        border-radius: 10px 10px 0 0;
+    }
+    
+    .courses-container .courses-card-group .courses-card .courses-card-img img {
+        border-radius: 10px 10px 0 0;
+    }
+    
+    .courses-container .courses-card-group .courses-card .courses-card-content {
+        padding: 20px;
+    }
+    
+    .courses-container .courses-card-group .courses-card .courses-card-content .courses-card-content-key-learnings ul {
+        grid-template-columns: 1fr;
+    }
+    
+    .contact-container .contact-info {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .contact-container .contact-info .contact-info-left,
+    .contact-container .contact-info .contact-info-right {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+/* Mobile Devices (480px and below) */
+@media screen and (max-width: 480px) {
+    .logo p {
+        font-size: 20px;
+    }
+    
+    nav ul li a {
+        font-size: 11px;
+        padding: 4px 6px;
+    }
+    
+    .home {
+        margin-top: 10px;
+    }
+    
+    .img-con {
+        width: 240px;
+        height: 240px;
+    }
+    
+    .home-text-container .text .welcome {
+        font-size: 12px;
+        padding: 8px;
+    }
+    
+    .home-text-container .text .name,
+    .home-text-container .text .first-name {
+        font-size: 32px;
+    }
+    
+    .home-text-container .text .role {
+        font-size: 22px;
+    }
+    
+    .home-text-container .text p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    
+    .home-text-container .btn-group a {
+        padding: 10px 15px;
+        font-size: 13px;
+    }
+    
+    .home-container .background-animation i {
+        font-size: 16px;
+    }
+    
+    .about-container .about-title .title,
+    .skills-container .skills-title .title,
+    .projects-container .projects-title .title,
+    .education-container .education-title .title,
+    .volunteer-container .volunteer-title .title,
+    .courses-container .courses-title .title,
+    .contact-container .contact-title .title {
+        font-size: 28px;
+    }
+    
+    .about-container .about-title p,
+    .skills-container .skills-title p,
+    .projects-container .projects-title p,
+    .education-container .education-title p,
+    .volunteer-container .volunteer-title p,
+    .courses-container .courses-title p,
+    .contact-container .contact-title p {
+        font-size: 16px;
+    }
+    
+    .about-info .about-info-card-group {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .about-info .about-info-card-group .about-info-card {
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .about-info-con-left .about-info-background .text,
+    .about-info-con-left .about-info-hobbies .text {
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    
+    .language-container {
+        margin-left: 10px;
+    }
+    
+    .about-info-con-left .about-info-hobbies .hobbies-card {
+        flex-wrap: wrap;
+        margin-left: 10px;
+    }
+    
+    .about-info-con-left .about-info-hobbies .hobbies-card .reading,
+    .about-info-con-left .about-info-hobbies .hobbies-card .volleyball,
+    .about-info-con-left .about-info-hobbies .hobbies-card .music,
+    .about-info-con-left .about-info-hobbies .hobbies-card .research {
+        width: 48%;
+        font-size: 14px;
+        padding: 10px;
+    }
+    
+    .photo-card {
+        max-width: 300px;
+    }
+    
+    .skills-container .technical-skills .technical-skills-card-group .technical-skills-card {
+        padding: 20px;
+        height: auto;
+    }
+    
+    .skills-container .soft-skills .soft-skills-card-group {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .skills-container .soft-skills .soft-skills-card-group .soft-skills-card {
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .skills-container .additional-competencies .competencies-list {
+        gap: 10px;
+    }
+    
+    .skills-container .additional-competencies .competencies-list p {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+    
+    .projects-container .projects-card-group .projects-card {
+        height: auto;
+    }
+    
+    .projects-footer .title,
+    .volunteer-container .volunteer-footer .title,
+    .courses-container .courses-footer .title {
+        font-size: 20px;
+    }
+    
+    .projects-footer .text,
+    .volunteer-container .volunteer-footer .text,
+    .courses-container .courses-footer .text {
+        font-size: 16px;
+        width: 95%;
+    }
+    
+    .projects-footer .contact-me-btn {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+    
+    .timeline-item {
+        padding: 15px 15px 15px 50px;
+    }
+    
+    .edu-card .title .fa-graduation-cap {
+        padding: 12px;
+        font-size: 22px;
+    }
+    
+    .edu-card .title span {
+        font-size: 20px;
+    }
+    
+    .edu-card .title p {
+        font-size: 16px;
+        margin-left: 60px;
+    }
+    
+    .edu-card .text,
+    .edu-card .key-achievements ul li {
+        font-size: 14px;
+    }
+    
+    .courses-container .courses-card-group .courses-card .courses-card-img {
+        height: 200px;
+    }
+    
+    .courses-container .courses-card-group .courses-card .courses-card-content .courses-card-content-header .title-and-status {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    
+    .courses-container .courses-card-group .courses-card .courses-card-content .courses-card-content-header .title-and-status .title {
+        font-size: 22px;
+    }
+    
+    .contact-container .contact-info .contact-info-left {
+        padding: 20px;
+    }
+    
+    .contact-container .contact-info .contact-info-left .title {
+        font-size: 20px;
+    }
+    
+    .contact-container .contact-info .contact-info-right .contact-info-right-card-group .contact-info-right-card {
+        padding: 20px;
+        height: auto;
+    }
+    
+    .contact-container .contact-info .contact-info-right .contact-info-right-card-group .contact-info-right-card .contact-method {
+        font-size: 16px;
+    }
+    
+    .contact-container .contact-info .contact-info-right .contact-info-right-card-group .address .contact-method {
+        width: 85%;
+    }
+    
+    .contact-container .contact-info .contact-info-right .contact-info-btn .btn-group {
+        justify-content: space-around;
+    }
+    
+    .contact-container .contact-info .contact-info-right .contact-info-btn .btn {
+        padding: 12px 14px;
+        font-size: 22px;
+    }
+    
+    .footer .footer-container {
+        margin-bottom: 40px;
+    }
+    
+    .footer .footer-container .copy-right {
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    .footer .footer-container .designer-credit {
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
+/* Extra Small Mobile Devices (360px and below) */
+@media screen and (max-width: 360px) {
+    .logo p {
+        font-size: 18px;
+    }
+    
+    nav ul {
+        gap: 3px;
+    }
+    
+    nav ul li a {
+        font-size: 10px;
+        padding: 3px 5px;
+    }
+    
+    .img-con {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .home-text-container .text .name,
+    .home-text-container .text .first-name {
+        font-size: 28px;
+    }
+    
+    .home-text-container .text .role {
+        font-size: 20px;
+    }
+    
+    .home-text-container .btn-group a {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+    
+    .about-container .about-title .title,
+    .skills-container .skills-title .title,
+    .projects-container .projects-title .title,
+    .education-container .education-title .title,
+    .volunteer-container .volunteer-title .title,
+    .courses-container .courses-title .title,
+    .contact-container .contact-title .title {
+        font-size: 24px;
+    }
+    
+    .about-info-con-left .about-info-hobbies .hobbies-card .reading,
+    .about-info-con-left .about-info-hobbies .hobbies-card .volleyball,
+    .about-info-con-left .about-info-hobbies .hobbies-card .music,
+    .about-info-con-left .about-info-hobbies .hobbies-card .research {
+        width: 100%;
+    }
+    
+    .contact-container .contact-info .contact-info-right .contact-info-btn .btn {
+        padding: 10px 12px;
+        font-size: 20px;
+    }
+}
