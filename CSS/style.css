@@ -1981,7 +1981,6 @@ nav ul li a.active{
     }
 }
 
-/* Tablets (768px and below) */
 @media screen and (max-width: 768px) {
     .header {
         height: auto;
@@ -2054,7 +2053,7 @@ nav ul li a.active{
     
     .home-text-container .text .role {
         font-size: 26px;
-        width: 270px;
+        width: 310px;
         margin: 0 auto 20px;
     }
     
@@ -2222,7 +2221,6 @@ nav ul li a.active{
     }
 }
 
-/* Mobile Devices (480px and below) */
 @media screen and (max-width: 480px) {
     .logo p {
         font-size: 20px;
@@ -2254,6 +2252,7 @@ nav ul li a.active{
     
     .home-text-container .text .role {
         font-size: 22px;
+        width: 265px;
     }
     .home-text-container .text p {
         font-size: 14px;
@@ -2350,7 +2349,9 @@ nav ul li a.active{
         font-size: 14px;
         padding: 8px 15px;
     }
-    
+    .skills-container .additional-competencies .title p{
+        font-size: 22px;
+    }
     .projects-container .projects-card-group .projects-card {
         height: auto;
     }
@@ -2455,7 +2456,6 @@ nav ul li a.active{
     }
 }
 
-/* Extra Small Mobile Devices (360px and below) */
 @media screen and (max-width: 360px) {
     .logo p {
         font-size: 18px;
@@ -2482,6 +2482,7 @@ nav ul li a.active{
     
     .home-text-container .text .role {
         font-size: 20px;
+        width: 240px;
     }
     
     .home-text-container .btn-group a {
