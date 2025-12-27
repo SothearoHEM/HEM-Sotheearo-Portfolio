@@ -466,6 +466,7 @@ nav ul li a.active{
 }
 .about-info-con-left .about-info-hobbies .hobbies-card{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin-left: 40px;
     margin-top: 10px;
@@ -647,10 +648,8 @@ nav ul li a.active{
     position: relative;
 }
 .skills-container .technical-skills .technical-skills-card-group .technical-skills-card .skill-item .progress-fill {
-    height: 12px;
+    height: 100%;
     border-radius: 9999px;
-    overflow: hidden;
-    position: relative;
 }
 .skills-container .technical-skills .technical-skills-card-group .technical-skills-card .skill-item .progress-fill.html {
     width: 80%;
@@ -1880,22 +1879,188 @@ nav ul li a.active{
 
 /* Responsive Design */
 
-
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1360px) {
     .header-container {
-        width: 90%;
-    }
-    
-    nav ul {
-        font-size: 14px;
+        width: 85%;
     }
     
     nav ul li a {
+        font-size: 15px;
+        padding: 7px 12px;
+    }
+    
+    .home-container {
+        width: 90%;
+    }
+    
+    .home-img-container {
+        margin-left: 30px;
+    }
+    
+    .img-con {
+        width: 340px;
+        height: 340px;
+    }
+    
+    .home-text-container .text .name,
+    .home-text-container .text .first-name {
+        font-size: 55px;
+    }
+    
+    .home-text-container .text .role {
+        font-size: 35px;
+        width: 415px;
+    }
+    
+    .home-text-container .text p {
+        font-size: 19px;
+        width: 90%;
+    }
+    
+    .home-text-container .btn-group {
+        width: 80%;
+    }
+    
+    .home-text-container .btn-group a {
+        padding: 12px 18px;
+        font-size: 15px;
+    }
+    
+    .about-container,
+    .skills-container,
+    .projects-container,
+    .education-container,
+    .volunteer-container,
+    .courses-container,
+    .contact-container {
+        width: 85%;
+    }
+    
+    .about-container .about-title,
+    .skills-container .skills-title,
+    .projects-container .projects-title,
+    .education-container .education-title,
+    .volunteer-container .volunteer-title,
+    .courses-container .courses-title,
+    .contact-container .contact-title {
+        width: 60%;
+    }
+    
+    .about-info .about-info-card-group .about-info-card {
+        width: 250px;
+        height: 145px;
+    }
+    
+    .about-info-con-left {
+        padding-right: 20px;
+    }
+    
+    .about-info-con-right {
+        padding-left: 20px;
+    }
+    .language-container{
+        width: 92%;
+    }
+    .photo-card {
+        width: 550px;
+    }
+    
+    .skills-container .technical-skills .technical-skills-card-group {
+        gap: 18px;
+    }
+    
+    .skills-container .technical-skills .technical-skills-card-group .technical-skills-card {
+        width: 360px;
+        height: 340px;
+        padding: 25px;
+    }
+    
+    .skills-container .soft-skills .soft-skills-card-group .soft-skills-card {
+        width: 270px;
+        height: 165px;
+    }
+    
+    .projects-container .projects-card-group {
+        gap: 18px;
+    }
+    
+    .projects-container .projects-card-group .projects-card {
+        width: 360px;
+    }
+    
+    .projects-container .projects-card-group .projects-card .text {
+        height: 140px;
+        font-size: 16px;
+    }
+    
+    .projects-container .projects-card-group .Coffee-Shop-Management-System .text {
+        height: 160px;
+    }
+    
+    .edu-card {
+        width: 480px;
+        padding: 22px;
+    }
+    
+    .timeline-item {
+        padding: 25px 35px;
+    }
+    
+    .volunteer-container .volunteer-card-group {
+        gap: 18px;
+    }
+    
+    .volunteer-container .volunteer-card-group .volunteer-card {
+        width: 360px;
+    }
+    
+    .courses-container .courses-card-group .courses-card .courses-card-img {
+        width: 550px;
+    }
+    
+    .courses-container .courses-card-group .courses-card .courses-card-content {
+        padding: 35px;
+    }
+    
+    .courses-container .courses-card-group .courses-card .courses-card-content .courses-card-content-header .title-and-status .title {
+        font-size: 23px;
+    }
+    
+    .contact-container .contact-info .contact-info-left {
+        padding: 28px;
+    }
+    
+    .contact-container .contact-info .contact-info-right .contact-info-right-card-group .contact-info-right-card {
+        padding: 28px;
+        height: 145px;
+    }
+    
+    .contact-container .contact-info .contact-info-right .contact-info-right-card-group .contact-info-right-card .contact-method {
+        font-size: 19px;
+    }
+    
+    .contact-container .contact-info .contact-info-right .contact-info-btn .btn {
+        padding: 14px 15px;
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 1260px) {
+    .header-container {
+        width: 88%;
+    }
+    
+    nav ul li a {
+        font-size: 14px;
         padding: 6px 10px;
     }
     
     .home-container {
-        width: 95%;
+        width: 92%;
+    }
+    
+    .home-img-container {
+        margin-left: 25px;
     }
     
     .img-con {
@@ -1915,6 +2080,7 @@ nav ul li a.active{
     
     .home-text-container .text p {
         font-size: 18px;
+        width: 92%;
     }
     
     .home-text-container .btn-group {
@@ -1925,6 +2091,271 @@ nav ul li a.active{
         padding: 11px 16px;
         font-size: 14px;
     }
+    
+    .about-container,
+    .skills-container,
+    .projects-container,
+    .education-container,
+    .volunteer-container,
+    .courses-container,
+    .contact-container {
+        width: 88%;
+    }
+    
+    .about-container .about-title,
+    .skills-container .skills-title,
+    .projects-container .projects-title,
+    .education-container .education-title,
+    .volunteer-container .volunteer-title,
+    .courses-container .courses-title,
+    .contact-container .contact-title {
+        width: 65%;
+    }
+    
+    .about-info .about-info-card-group .about-info-card {
+        width: 240px;
+        height: 140px;
+        padding: 18px;
+    }
+    
+    .about-info .about-info-card-group .about-info-card .fa-solid,
+    .about-info .about-info-card-group .about-info-card h2 {
+        font-size: 28px;
+    }
+    
+    .about-info-con-left {
+        padding-right: 18px;
+    }
+    
+    .about-info-con-right {
+        padding-left: 18px;
+    }
+    
+    .photo-card {
+        width: 520px;
+    }
+    
+    .about-info-con-left .about-info-background .text,
+    .about-info-con-left .about-info-hobbies .text {
+        font-size: 16px;
+    }
+    .language-container{
+        width: 90%;
+    }
+    .skills-container .technical-skills .technical-skills-card-group {
+        gap: 16px;
+    }
+    
+    .skills-container .technical-skills .technical-skills-card-group .technical-skills-card {
+        width: 350px;
+        height: auto;
+        padding: 23px;
+    }
+    
+    .skills-container .soft-skills .soft-skills-card-group {
+        justify-content: space-around;
+    }
+    
+    .skills-container .soft-skills .soft-skills-card-group .soft-skills-card {
+        width: 260px;
+        height: 160px;
+    }
+    
+    .skills-container .additional-competencies .competencies-list p {
+        font-size: 15px;
+        padding: 9px 18px;
+    }
+    
+    .projects-container .projects-card-group {
+        gap: 16px;
+    }
+    
+    .projects-container .projects-card-group .projects-card {
+        width: 350px;
+        height: 560px;
+    }
+    
+    .projects-container .projects-card-group .projects-card .title p {
+        font-size: 21px;
+    }
+    
+    .projects-container .projects-card-group .projects-card .text {
+        height: 135px;
+        font-size: 16px;
+        padding: 18px;
+    }
+    
+    .projects-container .projects-card-group .Coffee-Shop-Management-System .text {
+        height: 155px;
+    }
+    
+    .projects-container .projects-card-group .projects-card .projects-card-btn a {
+        font-size: 14px;
+    }
+    
+    .edu-card {
+        width: 460px;
+        padding: 20px;
+    }
+    
+    .edu-card .title span {
+        font-size: 24px;
+    }
+    
+    .edu-card .title p {
+        font-size: 17px;
+    }
+    
+    .timeline-item {
+        padding: 23px 32px;
+    }
+    
+    .dot {
+        top: 240px;
+    }
+    
+    .volunteer-container .volunteer-card-group {
+        gap: 16px;
+    }
+    
+    .volunteer-container .volunteer-card-group .volunteer-card {
+        width: 350px;
+    }
+    
+    .volunteer-container .volunteer-card-group .volunteer-card .volunteer-card-header .title {
+        font-size: 21px;
+    }
+    
+    .volunteer-container .volunteer-card-group .volunteer-card .text {
+        font-size: 14px;
+    }
+    
+    .courses-container .courses-card-group .courses-card .courses-card-img {
+        width: 520px;
+    }
+    
+    .courses-container .courses-card-group .courses-card .courses-card-content {
+        padding: 32px;
+    }
+    
+    .courses-container .courses-card-group .courses-card .courses-card-content .courses-card-content-header .title-and-status .title {
+        font-size: 22px;
+    }
+    
+    .courses-container .courses-card-group .courses-card .courses-card-content .courses-card-content-header .issuer {
+        font-size: 17px;
+    }
+    
+    .courses-container .courses-card-group .courses-card .courses-card-content .courses-card-content-description {
+        font-size: 15px;
+    }
+    
+    .contact-container .contact-info .contact-info-left {
+        padding: 26px;
+    }
+    
+    .contact-container .contact-info .contact-info-left .title {
+        font-size: 21px;
+    }
+    
+    .contact-container .contact-info .contact-info-left label {
+        font-size: 15px;
+    }
+    
+    .contact-container .contact-info .contact-info-left input,
+    .contact-container .contact-info .contact-info-left textarea {
+        font-size: 15px;
+        padding: 11px;
+    }
+    
+    .contact-container .contact-info .contact-info-right .contact-info-right-card-group .title {
+        font-size: 21px;
+    }
+    
+    .contact-container .contact-info .contact-info-right .contact-info-right-card-group .contact-info-right-card {
+        padding: 26px;
+        height: 140px;
+    }
+    
+    .contact-container .contact-info .contact-info-right .contact-info-right-card-group .contact-info-right-card i {
+        font-size: 23px;
+    }
+    
+    .contact-container .contact-info .contact-info-right .contact-info-right-card-group .contact-info-right-card span {
+        font-size: 17px;
+    }
+    
+    .contact-container .contact-info .contact-info-right .contact-info-right-card-group .contact-info-right-card .contact-method {
+        font-size: 18px;
+    }
+    
+    .contact-container .contact-info .contact-info-right .contact-info-right-card-group .contact-info-right-card .p1 {
+        font-size: 15px;
+    }
+    
+    .contact-container .contact-info .contact-info-right .contact-info-btn .title {
+        font-size: 21px;
+    }
+    
+    .contact-container .contact-info .contact-info-right .contact-info-btn .btn {
+        padding: 13px 14px;
+        font-size: 23px;
+    }
+    
+    .contact-container .contact-info .contact-info-right .current-status .title {
+        font-size: 19px;
+    }
+    
+    .contact-container .contact-info .contact-info-right .current-status .text {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .header-container {
+        width: 90%;
+    }
+    
+    nav ul {
+        font-size: 14px;
+    }
+    
+    nav ul li a {
+        padding: 6px 10px;
+    }
+    
+    .home-container {
+        width: 95%;
+    }
+    
+    .img-con {
+        width: 300px;
+        height: 300px;
+    }
+    
+    .home-text-container .text .name,
+    .home-text-container .text .first-name {
+        font-size: 45px;
+    }
+    
+    .home-text-container .text .role {
+        font-size: 28px;
+        width: 370px;
+    }
+    
+    .home-text-container .text p {
+        font-size: 17px;
+    }
+    
+    .home-text-container .btn-group {
+        width: 90%;
+    }
+    
+    .home-text-container .btn-group a {
+        padding: 11px 16px;
+        font-size: 14px;
+    }
+    
     .about-container,
     .skills-container,
     .projects-container,
@@ -1936,13 +2367,13 @@ nav ul li a.active{
     }
     
     .about-info .about-info-card-group .about-info-card {
-        width: 230px;
-        height: 140px;
+        width: 220px;
+        height: 135px;
         padding: 15px;
     }
     
     .photo-card {
-        width: 500px;
+        width: 480px;
     }
     
     .skills-container .technical-skills .technical-skills-card-group {
@@ -1956,15 +2387,17 @@ nav ul li a.active{
     
     .projects-container .projects-card-group {
         grid-template-columns: repeat(2, 1fr);
+        height: auto;
         gap: 15px;
     }
     
     .projects-container .projects-card-group .projects-card {
         width: 100%;
+        height: auto;
     }
     
     .edu-card {
-        width: 450px;
+        width: 440px;
     }
     
     .volunteer-container .volunteer-card-group {
@@ -1977,9 +2410,10 @@ nav ul li a.active{
     }
     
     .courses-container .courses-card-group .courses-card .courses-card-img {
-        width: 400px;
+        width: 450px;
     }
 }
+
 
 @media screen and (max-width: 768px) {
     .header {
@@ -2023,7 +2457,7 @@ nav ul li a.active{
         height: auto;
         padding: 20px 0;
     }
-    .home-container .home-text-container .welcome{
+    .home-text-container .text .welcome{
         display: none;
     }
     
